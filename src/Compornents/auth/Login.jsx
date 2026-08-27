@@ -37,7 +37,7 @@ const Login = ({handlelogin}) => {
             }}
             required className='text-white mt-5 border-blue-200 outline-none border-2  rounded-full py-3 px-5 placeholder:text-gray-400' type="password" placeholder="enter your password" />
 
-            <button className='mt-5 rounded-3xl px-5 animate-bounce cursor-pointer py-3 text-black-500 border-none outline-none bg-blue-400 hover:bg-blue-500 font-semibold '>Log in</button>
+            <button className='mt-5 rounded-3xl hover:scale-105 transition duration-300 ease-in-out px-5 cursor-pointer py-3 text-black-500 border-none outline-none bg-blue-500 hover:bg-blue-400 font-semibold '>Log in</button>
         </form>
         </div>
     </div>
