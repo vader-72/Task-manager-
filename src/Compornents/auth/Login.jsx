@@ -44,9 +44,8 @@ const Login = ({handlelogin}) => {
         </form>
         
         </div>
-        <div className ='flex w-100 h-125 rounded-3xl items-center justify-center flex-col ml-10 hover:scale-105 transition duration-300 ease-in-out bg-zinc-50 border-2  border-gray-300'>
-            <p className ='text-4xl font-semibold p-5 '>Task manager</p>
-            <img className ='rounded-2xl w-50 h-50'src='./src/assets/sadiq.png'/>
+        <div className ='flex w-100 h-125 rounded-3xl items-center justify-center flex-col ml-10 hover:scale-105 transition duration-300 ease-in-out border-2  border-gray-300'>
+            <img className ='rounded-3xl  'src='./src/assets/taskmanager.jpeg'/>
         </div>
     </div>
   )
