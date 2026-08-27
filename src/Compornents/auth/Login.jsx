@@ -19,7 +19,7 @@ const Login = ({handlelogin}) => {
     
   return (
     <div className='flex h-screen w-screen items-center justify-center'>
-       <div className='border-2 border-blue-200 p-20'>
+       <div className='border-2 rounded-3xl border-blue-200 p-30 '>
         <form onSubmit={(e) => {
             submitHandler(e)
         }} className='flex flex-col items-center justify-center '>
@@ -37,7 +37,7 @@ const Login = ({handlelogin}) => {
             }}
             required className='text-white mt-5 border-blue-200 outline-none border-2  rounded-full py-3 px-5 placeholder:text-gray-400' type="password" placeholder="enter your password" />
 
-            <button className='mt-5 rounded-full px-5 py-3 text-black-500 border-none outline-none bg-blue-200'>Log in</button>
+            <button className='mt-5 rounded-3xl px-5 animate-bounce cursor-pointer py-3 text-black-500 border-none outline-none bg-blue-400 hover:bg-blue-500 font-semibold '>Log in</button>
         </form>
         </div>
     </div>
