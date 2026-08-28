@@ -34,7 +34,7 @@ const CreateTask = () => {
   }
 
   return (
-    <div className='p-5 bg-black mt-7 rounded'>
+    <div className='p-5 bg-white mt-7 rounded'>
       <form onSubmit={submitHandler} className='flex w-full flex-wrap items-start justify-between'>
         <div className='w-1/2'>
           <div>
