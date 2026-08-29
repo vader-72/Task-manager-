@@ -6,8 +6,10 @@ import Failedtask from './failedtask';
 
 const TaskList = ({data}) => {
   return (
-    <div className = 'h-[500px] w-full flex gap-5 overflow-x-auto p-5 flex items-center justify between'>
-        {data.tasks.map((elem ,idx ) => {
+    <div className = 'h-[500px] w-full flex gap-5 bg-zinc-100 border-3 border-gray-300 mt-10 rounded-xl overflow-x-auto p-5 flex  flex-col items-start justify-between'>
+        <div className ='flex items-center justiy-start '><h1 className ='text-5xl font-semibold text-indigo-700 hover:scale-105 duration-500 p-5 border-b-2 '>All of your Tasks</h1></div>
+        <div className ='flex flex-row items-center justify-start gap-x-10 w-full '>
+            {data.tasks.map((elem ,idx ) => {
 
             if(elem.active){
                 return <AcceptedTask  key={idx} data={elem}/>
@@ -22,6 +24,7 @@ const TaskList = ({data}) => {
                 return <Failedtask  key={idx} data={elem}/>
             }
         })}
+        </div>
     </div>
   );
 };

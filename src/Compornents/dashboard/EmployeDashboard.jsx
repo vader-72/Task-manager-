@@ -12,7 +12,7 @@ const EmployeDashboard = ({data}) => {
 
   
   return (
-    <div>
+    <div className ='w-full h-screen p-7'>
       
      <Header data={data}/>
      <TaskListNumbers data={data}/>
